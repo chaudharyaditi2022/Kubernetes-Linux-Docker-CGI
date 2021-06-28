@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kubernetes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='kubernetes.css'>
+    <script src='main.js'></script>
+    
+</head>
+<body>
+    <div class="background-div">
+        <div class="flex-container">
+            <div class="main">
+                <h1>Kubernetes CLI</h1>
+                <input class="input-lg" onkeyup="KubernetesTask()" type="text" id="task" placeholder="What to you want to do?"/>
+                <button onclick="KubernetesTask()">Run</button>
+                <h1>Output</h1>
+                <div class="output-div"  >
+                    <pre  id="output">
+
+                    </pre>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
